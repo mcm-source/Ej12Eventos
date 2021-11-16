@@ -18,7 +18,7 @@
 
 
     <RadioGroup
-        android:id="@+id/rg"
+        android:id="@+id/rgMoneda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -27,6 +27,7 @@
             android:id="@+id/rbtPesetas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Euro a Pts." />
 
 
@@ -34,7 +35,7 @@
             android:id="@+id/rbtEuros"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Euro a Pts." />
+            android:text="Pts. a Euro" />
 
     </RadioGroup>
 
@@ -63,14 +64,14 @@
 
 
     <Button
-        android:id="@+id/btnsaludar"
+        android:id="@+id/btnCambiar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Cambiar" />
 
     <TextView
-        android:id="@+id/tvsaludar"
+        android:id="@+id/tvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
